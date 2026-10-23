@@ -1,9 +1,9 @@
 const slides = [
-  { src: "images/artwork-01 jpg", alt: "" },
-  { src: "images/artwork-02 jpg", alt: "" },
-  { src: "images/artwork-03 jpg", alt: "Figurative artwork in a gallery" },
-  { src: "images/artwork-04 jpg", alt: "Contemporary artwork with expressive colour" }
-  { src: "images/artwork-05 jpg", alt: "Contemporary artwork with expressive colour" }
+  { src: "artwork-01.jpg", alt: "" },
+  { src: "artwork-02.jpg", alt: "" },
+  { src: "artwork-03.jpg", alt: "" },
+  { src: "artwork-04.jpg", alt: "" },
+  { src: "artwork-05.jpg", alt: "" }
 ];
 
 document.querySelectorAll(".year").forEach((year) => { year.textContent = new Date().getFullYear(); });
