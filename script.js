@@ -1,0 +1,2 @@
+const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});}
+const form=document.querySelector('.contact-form');if(form){form.addEventListener('submit',e=>{e.preventDefault();const status=form.querySelector('.form-status');if(status)status.textContent='This is a template form. Connect it to your email service or website host to receive enquiries.';});}
