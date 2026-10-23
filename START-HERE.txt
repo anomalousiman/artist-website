@@ -1,0 +1,20 @@
+IMAN HOWARD — WEBSITE
+
+This is a clean four-page static website with a minimal white layout inspired by the reference artist site: spaced uppercase navigation, subtle grey dividers, and a centered artwork slideshow on Home.
+
+FILES
+- index.html: Home and the rotating artwork images
+- exhibitions.html: exhibition history
+- about.html: artist biography
+- contact.html: contact details
+- styles.css: all fonts, colours, spacing and layout
+- script.js: image rotation and current-year footer
+
+PERSONALISE IT
+- Replace bracketed copy on Exhibitions and About with your own details.
+- Update the email address and Instagram link in contact.html.
+- Replace the image URLs in script.js with your own published image URLs. Keep the four entries to have four rotating images, or add/remove entries there.
+- The image URLs currently point to sample artwork photography and require an internet connection. Use your own artwork images before publishing.
+- The four page links are Home, Exhibitions, About and Contact.
+
+Upload all files together to the top level of your GitHub repository. Keep the stylesheet named styles.css; index.html links to that exact filename.
